@@ -1,0 +1,34 @@
+ p "8x1_16x1_0_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_0_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_10_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_10_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_1_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_1_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_11_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_11_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_12_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_12_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_13_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_13_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_14_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_14_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_15_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_15_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_16_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_16_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_2_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_2_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_3_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_3_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_4_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_4_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_5_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_5_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_6_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_6_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_7_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_7_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_8_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_8_0_PBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_9_0_OBC.conf.out" u 1:3 pt 7 , \
+"8x1_16x1_9_0_PBC.conf.out" u 1:3 pt 7 

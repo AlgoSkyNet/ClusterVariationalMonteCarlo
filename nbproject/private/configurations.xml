@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_signals>
+        </gdb_signals>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/chris/NetBeansProjects/ClusterVariationalMonteCarlo/confs/1DRuns/4x1_8x1_0_0_OBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/NetBeansProjects/ClusterVariationalMonteCarloPerf5/confs/2DRuns.periodic.alt/4x2_4x4_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf5/confs/2DRuns.periodic.alt/4x2_4x4_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf5/confs/1DRuns/8x1_32x1_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf5/confs/1DRuns/8x1_64x1_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/confs/experiment/4x2_4x4_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/confs/6x2_p_o_6x6_p_p/6x2_6x6_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/confs/4x2_p_o_4x4_p_p_8_8/4x2_4x4_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/confs/4x2_p_o_4x4_p_p_8_8/4x2_4x4_1_.50000000000000000000_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/6x2_6x6_8_4.00000000000000000000_OBC.conf</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/6x2_6x6_8_4.00000000000000000000_OBC.conf</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="OMP_NUM_THREADS" value="4"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="IntelDebug" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release2" type="1">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/chris/NetBeansProjects/ClusterVariationalMonteCarlo/confs/4x2_4x2_0_0_OBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" /home/chris/NetBeansProjects/ClusterVariationalMonteCarlo/confs/1DRuns/4x1_8x1_0_0_OBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}" ~/NetBeansProjects/ClusterVariationalMonteCarloPerf5/confs/2DRuns.periodic.alt/4x2_4x4_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf5/confs/2DRuns.periodic.alt/4x2_4x4_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf5/confs/1DRuns/8x1_32x1_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf5/confs/1DRuns/8x1_64x1_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/confs/experiment/4x2_4x4_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/confs/6x2_p_o_6x6_p_p/6x2_6x6_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  4x2_p_o_4x4_p_p_8_8/4x2_4x4_0_0_PBC.conf</runcommandpicklistitem>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/confs/4x2_p_o_4x4_p_p_8_8/4x2_4x4_0_0_PBC.conf</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"  /home/chris/NetBeansProjects/ClusterVariationalMonteCarloPerf7/confs/4x2_p_o_4x4_p_p_8_8/4x2_4x4_0_0_PBC.conf</runcommand>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="OMP_NUM_THREADS" value="1"/>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

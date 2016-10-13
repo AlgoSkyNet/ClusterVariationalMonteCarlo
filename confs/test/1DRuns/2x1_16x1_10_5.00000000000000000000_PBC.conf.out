@@ -1,0 +1,2 @@
+#ClusterEigenvalue -10.3852
+# g emean emean / nmean nmean domean / config->nTotalSites s2mean / config->nTotalSites staggmag / config->nTotalSites epert / config->nTotalSites ess->getGroundStateEnergy() * config->nClusters ess->getGroundStateEnergy() * config->nClusters / nmean 
