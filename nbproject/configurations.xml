@@ -54,7 +54,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
-      <itemPath>src/newmain.cpp</itemPath>
+      <itemPath>src/main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -264,7 +264,7 @@
       </item>
       <item path="mcSimulation2.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/newmain.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="tests/newsimpletest.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -460,7 +460,7 @@
       </item>
       <item path="mcSimulation2.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/newmain.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="tests/newsimpletest.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -642,7 +642,7 @@
       </item>
       <item path="mcSimulation2.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/newmain.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="tests/newsimpletest.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -835,7 +835,7 @@
       </item>
       <item path="mcSimulation2.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="src/newmain.cpp" ex="false" tool="1" flavor2="0">
+      <item path="src/main.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="tests/newsimpletest.c" ex="false" tool="0" flavor2="0">
       </item>
