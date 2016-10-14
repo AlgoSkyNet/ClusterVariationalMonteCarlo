@@ -98,54 +98,29 @@ int threadedmain(int argc, char** argv) {
     filename->append(".out");
     int nThreads;
 
-
-//    mc_state ts = 0;
-//    mcMisc::printBinaryString(ts, 128);
-//    ts = mc_state_set_bit(ts, 54);
-//    mcMisc::printBinaryString(ts, 128);
-//    ts = mc_state_unset_bit(ts, 2);
-//    mcMisc::printBinaryString(ts, 128);
-//    ts = 0;
-//    for (int i = 0; i < 120; i++) {
-//        ts = mc_state_set_bit(ts, i);
-//        mcMisc::printBinaryString(ts, 120);
-//        ts = mc_state_unset_bit(ts, i);
-//    }
-//    exit(0);
-
-    //    int tns=12;
-    //    int tnc=3;
-    //    int tn=tns*tnc;
-    //    mc_state ts=(ONE<<(tn))-ONE;
-    //    mc_state tcsu=mcMisc::getSystemState_Up(ts,tns,tnc);
-    //    mc_state tcsd=mcMisc::getSystemState_Down(ts,tns,tnc);
-    //    mc_state tssu=mcMisc::getSpinState_Up(tcsu,tns,tnc);
-    //    mc_state tssd=mcMisc::getSpinState_Down(tcsd,tns,tnc);
-    //    mcMisc::printBinaryString(ts,2*tn);
-    //    mcMisc::printBinaryString(tcsd,2*tn);
-    //    mcMisc::printBinaryString(tcsu,2*tn);
-    //    mcMisc::printBinaryString(tssd,2*tn);
-    //    mcMisc::printBinaryString(tssu,2*tn);
-    //    exit(0);
+// get the number of threads we have
 #pragma omp parallel
     {
         nThreads = omp_get_num_threads();
     }
+    // read the configuration fie given as argument ...
     mcConfiguration* config = mcConfiguration::readFromFile(argv[1]);
-
-
-    //    mcTests::overlapVariationalAndKronecker(config);
-    //    exit(0);
-
-
+    // .. and print that out for information
     config->print();
+    // create a hamiltonian from the configuration 
     mcAbstractClusterHamiltonian* ham = new mcHamiltonianConfigurable(config);
+    // create an eigensolver that gives us the ground state of the sub-clusters
     mcEigenSystemSolverPowerBasisLL* esspb = new mcEigenSystemSolverPowerBasisLL(config, ham);
+    // declare convergence when difference is less that:
     esspb->setConvergenceCriterion(1e-7);
+    // get a pointer to the abstract base class
     mcAbstractEigenSystemSolver* ess = esspb;
     //    mcAbstractEigenSystemSolver* ess = new mcEigenSystemSolverDirectBasis(config, ham);
     //    mcAbstractEigenSystemSolver* ess = new mcEigenSystemSolverDirect(config, ham);
+    // solve for the sub-cluster groundstate
     mcAbstractVector* gsv = ess->getGroundState();
+    // from the ground state create a trial wave function, consisting of a projection operator 
+    // acting on a kronecker product of the individual ground states.
     mcTrialWaveFunctionConfigurable* twf = new mcTrialWaveFunctionConfigurable(config, gsv);
     mc_state ZERO = 0;
     twf->setGamma(0);
