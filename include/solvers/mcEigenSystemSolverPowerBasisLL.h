@@ -6,11 +6,11 @@
  */
 #include<iostream>
 #include<math.h>
-#include "mc.h"
+#include "../mc.h"
 #include "mcAbstractEigenSystemSolver.h"
 #include "mcEigenSystemSolverDirectBasis.h"
-#include "mcVector.h"
-#include "mcMisc.h"
+#include "../vectors/mcVector.h"
+#include "../mcMisc.h"
 #include <gmpxx.h>
 
 #ifndef MCEIGENSYSTEMSOLVERPOWERBASISLL_H

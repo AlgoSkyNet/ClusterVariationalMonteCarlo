@@ -7,7 +7,7 @@
 
 //#include <gmpxx.h>
 #include"mcAbstractVector.h"
-#include "mc.h"
+#include "../mc.h"
 
 #ifndef MCKRONECKERPRODUCT_H
 #define	MCKRONECKERPRODUCT_H

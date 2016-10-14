@@ -4,13 +4,13 @@
  *
  * Created on August 5, 2011, 9:31 AM
  */
-#include "mc.h"
-#include"mcAbstractMeasurement.h"
+#include "../mc.h"
+#include "mcAbstractMeasurement.h"
 
 #ifndef MCMEASUREMENTOCCUPATION_H
 #define	MCMEASUREMENTOCCUPATION_H
 
-#include "mcAbstractVector.h"
+#include "../vectors/mcAbstractVector.h"
 
 class mcMeasurementOccupation : public mcAbstractMeasurement {
 public:

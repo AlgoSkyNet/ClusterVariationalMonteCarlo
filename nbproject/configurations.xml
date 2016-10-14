@@ -5,47 +5,47 @@
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="f4" displayName="hamiltonians" projectFiles="true">
-        <itemPath>mcAbstractClusterHamiltonian.h</itemPath>
-        <itemPath>mcHamiltonianConfigurable.h</itemPath>
-        <itemPath>mcHamiltonianConfigurable2.h</itemPath>
+        <itemPath>include/hamiltonians/mcAbstractClusterHamiltonian.h</itemPath>
+        <itemPath>include/hamiltonians/mcHamiltonianConfigurable.h</itemPath>
+        <itemPath>include/hamiltonians/mcHamiltonianConfigurable2.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f3" displayName="measurements" projectFiles="true">
-        <itemPath>mcAbstractMeasurement.h</itemPath>
-        <itemPath>mcMeasurementDoubleOccupation.h</itemPath>
-        <itemPath>mcMeasurementDummy.h</itemPath>
-        <itemPath>mcMeasurementEnergy.h</itemPath>
-        <itemPath>mcMeasurementEnergy2.h</itemPath>
-        <itemPath>mcMeasurementOccupation.h</itemPath>
-        <itemPath>mcMeasurementPerturbation.h</itemPath>
-        <itemPath>mcMeasurementSpin2.h</itemPath>
-        <itemPath>mcMeasurementStaggeredMagnetization1D.h</itemPath>
-        <itemPath>mcMeasurementTotalOccupation.h</itemPath>
-        <itemPath>mcMeasurementWeight.h</itemPath>
+        <itemPath>include/measurements/mcAbstractMeasurement.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementDoubleOccupation.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementDummy.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementEnergy.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementEnergy2.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementOccupation.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementPerturbation.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementSpin2.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementStaggeredMagnetization1D.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementTotalOccupation.h</itemPath>
+        <itemPath>include/measurements/mcMeasurementWeight.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f1" displayName="solvers" projectFiles="true">
-        <itemPath>mcAbstractEigenSystemSolver.h</itemPath>
-        <itemPath>mcEigenSystemSolverDirect.h</itemPath>
-        <itemPath>mcEigenSystemSolverDirectBasis.h</itemPath>
-        <itemPath>mcEigenSystemSolverPowerBasis.h</itemPath>
-        <itemPath>mcEigenSystemSolverPowerBasisLL.h</itemPath>
+        <itemPath>include/solvers/mcAbstractEigenSystemSolver.h</itemPath>
+        <itemPath>include/solvers/mcEigenSystemSolverDirect.h</itemPath>
+        <itemPath>include/solvers/mcEigenSystemSolverDirectBasis.h</itemPath>
+        <itemPath>include/solvers/mcEigenSystemSolverPowerBasis.h</itemPath>
+        <itemPath>include/solvers/mcEigenSystemSolverPowerBasisLL.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f5" displayName="unused" projectFiles="true">
         <itemPath>mcSimulation2.h</itemPath>
-        <itemPath>mcSimulationState.h</itemPath>
+        <itemPath>include/unused/mcSimulationState.h</itemPath>
       </logicalFolder>
       <logicalFolder name="f2" displayName="vectors" projectFiles="true">
-        <itemPath>mcAbstractVector.h</itemPath>
-        <itemPath>mcKroneckerProduct.h</itemPath>
-        <itemPath>mcOmegaMatrixVectorProduct.h</itemPath>
-        <itemPath>mcTrialWaveFunctionConfigurable.h</itemPath>
-        <itemPath>mcVector.h</itemPath>
+        <itemPath>include/vectors/mcAbstractVector.h</itemPath>
+        <itemPath>include/vectors/mcKroneckerProduct.h</itemPath>
+        <itemPath>include/vectors/mcOmegaMatrixVectorProduct.h</itemPath>
+        <itemPath>include/vectors/mcTrialWaveFunctionConfigurable.h</itemPath>
+        <itemPath>include/vectors/mcVector.h</itemPath>
       </logicalFolder>
       <itemPath>include/mc.h</itemPath>
-      <itemPath>mcConfiguration.h</itemPath>
-      <itemPath>mcDataSeriesAnalyzer.h</itemPath>
-      <itemPath>mcMisc.h</itemPath>
-      <itemPath>mcSimulation.h</itemPath>
-      <itemPath>mcTests.h</itemPath>
+      <itemPath>include/mcConfiguration.h</itemPath>
+      <itemPath>include/mcDataSeriesAnalyzer.h</itemPath>
+      <itemPath>include/mcMisc.h</itemPath>
+      <itemPath>include/mcSimulation.h</itemPath>
+      <itemPath>include/mcTests.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -128,72 +128,135 @@
           <output>${TESTDIR}/TestFiles/f1</output>
         </linkerTool>
       </folder>
-      <item path="include/mc.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractClusterHamiltonian.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractEigenSystemSolver.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractMeasurement.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractVector.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcConfiguration.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcDataSeriesAnalyzer.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverDirect.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverDirectBasis.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverPowerBasis.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverPowerBasisLL.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcHamiltonianConfigurable.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcHamiltonianConfigurable2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcKroneckerProduct.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementDoubleOccupation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementDummy.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementEnergy.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementEnergy2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementOccupation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementPerturbation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementSpin2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementStaggeredMagnetization1D.h"
+      <item path="include/hamiltonians/mcAbstractClusterHamiltonian.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="mcMeasurementTotalOccupation.h" ex="false" tool="3" flavor2="0">
+      <item path="include/hamiltonians/mcHamiltonianConfigurable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="mcMeasurementWeight.h" ex="false" tool="3" flavor2="0">
+      <item path="include/hamiltonians/mcHamiltonianConfigurable2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="mcMisc.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="mcOmegaMatrixVectorProduct.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mcConfiguration.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="mcSimulation.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mcDataSeriesAnalyzer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcMisc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcSimulation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcTests.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/measurements/mcAbstractMeasurement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementDoubleOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementDummy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementEnergy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementEnergy2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementPerturbation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementSpin2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementStaggeredMagnetization1D.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementTotalOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementWeight.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcAbstractEigenSystemSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverDirect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverDirectBasis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverPowerBasis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverPowerBasisLL.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/unused/mcSimulationState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vectors/mcAbstractVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vectors/mcKroneckerProduct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcOmegaMatrixVectorProduct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcTrialWaveFunctionConfigurable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="mcSimulation2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcSimulationState.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcTests.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcTrialWaveFunctionConfigurable.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/newmain.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -257,72 +320,135 @@
           <output>${TESTDIR}/TestFiles/f1</output>
         </linkerTool>
       </folder>
-      <item path="include/mc.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractClusterHamiltonian.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractEigenSystemSolver.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractMeasurement.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractVector.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcConfiguration.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcDataSeriesAnalyzer.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverDirect.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverDirectBasis.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverPowerBasis.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverPowerBasisLL.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcHamiltonianConfigurable.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcHamiltonianConfigurable2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcKroneckerProduct.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementDoubleOccupation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementDummy.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementEnergy.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementEnergy2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementOccupation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementPerturbation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementSpin2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementStaggeredMagnetization1D.h"
+      <item path="include/hamiltonians/mcAbstractClusterHamiltonian.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="mcMeasurementTotalOccupation.h" ex="false" tool="3" flavor2="0">
+      <item path="include/hamiltonians/mcHamiltonianConfigurable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="mcMeasurementWeight.h" ex="false" tool="3" flavor2="0">
+      <item path="include/hamiltonians/mcHamiltonianConfigurable2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="mcMisc.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="mcOmegaMatrixVectorProduct.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mcConfiguration.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="mcSimulation.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mcDataSeriesAnalyzer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcMisc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcSimulation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcTests.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/measurements/mcAbstractMeasurement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementDoubleOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementDummy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementEnergy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementEnergy2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementPerturbation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementSpin2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementStaggeredMagnetization1D.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementTotalOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementWeight.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcAbstractEigenSystemSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverDirect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverDirectBasis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverPowerBasis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverPowerBasisLL.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/unused/mcSimulationState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vectors/mcAbstractVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vectors/mcKroneckerProduct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcOmegaMatrixVectorProduct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcTrialWaveFunctionConfigurable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="mcSimulation2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcSimulationState.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcTests.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcTrialWaveFunctionConfigurable.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/newmain.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -372,72 +498,135 @@
           <output>${TESTDIR}/TestFiles/f1</output>
         </linkerTool>
       </folder>
-      <item path="include/mc.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractClusterHamiltonian.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractEigenSystemSolver.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractMeasurement.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractVector.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcConfiguration.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcDataSeriesAnalyzer.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverDirect.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverDirectBasis.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverPowerBasis.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverPowerBasisLL.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcHamiltonianConfigurable.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcHamiltonianConfigurable2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcKroneckerProduct.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementDoubleOccupation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementDummy.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementEnergy.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementEnergy2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementOccupation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementPerturbation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementSpin2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementStaggeredMagnetization1D.h"
+      <item path="include/hamiltonians/mcAbstractClusterHamiltonian.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="mcMeasurementTotalOccupation.h" ex="false" tool="3" flavor2="0">
+      <item path="include/hamiltonians/mcHamiltonianConfigurable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="mcMeasurementWeight.h" ex="false" tool="3" flavor2="0">
+      <item path="include/hamiltonians/mcHamiltonianConfigurable2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="mcMisc.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="mcOmegaMatrixVectorProduct.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mcConfiguration.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="mcSimulation.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mcDataSeriesAnalyzer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcMisc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcSimulation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcTests.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/measurements/mcAbstractMeasurement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementDoubleOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementDummy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementEnergy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementEnergy2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementPerturbation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementSpin2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementStaggeredMagnetization1D.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementTotalOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementWeight.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcAbstractEigenSystemSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverDirect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverDirectBasis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverPowerBasis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverPowerBasisLL.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/unused/mcSimulationState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vectors/mcAbstractVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vectors/mcKroneckerProduct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcOmegaMatrixVectorProduct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcTrialWaveFunctionConfigurable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="mcSimulation2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcSimulationState.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcTests.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcTrialWaveFunctionConfigurable.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/newmain.cpp" ex="false" tool="1" flavor2="0">
       </item>
@@ -498,72 +687,135 @@
           <output>${TESTDIR}/TestFiles/f1</output>
         </linkerTool>
       </folder>
-      <item path="include/mc.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractClusterHamiltonian.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractEigenSystemSolver.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractMeasurement.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcAbstractVector.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcConfiguration.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcDataSeriesAnalyzer.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverDirect.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverDirectBasis.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverPowerBasis.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcEigenSystemSolverPowerBasisLL.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcHamiltonianConfigurable.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcHamiltonianConfigurable2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcKroneckerProduct.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementDoubleOccupation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementDummy.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementEnergy.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementEnergy2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementOccupation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementPerturbation.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementSpin2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcMeasurementStaggeredMagnetization1D.h"
+      <item path="include/hamiltonians/mcAbstractClusterHamiltonian.h"
             ex="false"
             tool="3"
             flavor2="0">
       </item>
-      <item path="mcMeasurementTotalOccupation.h" ex="false" tool="3" flavor2="0">
+      <item path="include/hamiltonians/mcHamiltonianConfigurable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="mcMeasurementWeight.h" ex="false" tool="3" flavor2="0">
+      <item path="include/hamiltonians/mcHamiltonianConfigurable2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
       </item>
-      <item path="mcMisc.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mc.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="mcOmegaMatrixVectorProduct.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mcConfiguration.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="mcSimulation.h" ex="false" tool="3" flavor2="0">
+      <item path="include/mcDataSeriesAnalyzer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcMisc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcSimulation.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/mcTests.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/measurements/mcAbstractMeasurement.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementDoubleOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementDummy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementEnergy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementEnergy2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementPerturbation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementSpin2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementStaggeredMagnetization1D.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementTotalOccupation.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/measurements/mcMeasurementWeight.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcAbstractEigenSystemSolver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverDirect.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverDirectBasis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverPowerBasis.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/solvers/mcEigenSystemSolverPowerBasisLL.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/unused/mcSimulationState.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vectors/mcAbstractVector.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="include/vectors/mcKroneckerProduct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcOmegaMatrixVectorProduct.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcTrialWaveFunctionConfigurable.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="include/vectors/mcVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="mcSimulation2.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcSimulationState.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcTests.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcTrialWaveFunctionConfigurable.h" ex="false" tool="3" flavor2="0">
-      </item>
-      <item path="mcVector.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="src/newmain.cpp" ex="false" tool="1" flavor2="0">
       </item>

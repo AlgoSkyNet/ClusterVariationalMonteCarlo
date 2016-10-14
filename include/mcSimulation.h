@@ -9,10 +9,10 @@
 #include <stdlib.h>
 #include <omp.h>
 #include "mc.h"
-#include "mcAbstractVector.h"
+#include "vectors/mcAbstractVector.h"
 #include "mcConfiguration.h"
-#include "mcAbstractMeasurement.h"
-#include "mcMeasurementEnergy.h"
+#include "measurements/mcAbstractMeasurement.h"
+#include "measurements/mcMeasurementEnergy.h"
 
 #ifndef MCSIMULATION_H
 #define	MCSIMULATION_H

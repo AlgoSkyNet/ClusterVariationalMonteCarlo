@@ -5,7 +5,7 @@
  * Created on August 4, 2011, 2:01 PM
  */
 
-#include "mc.h"
+#include "../mc.h"
 #include "mcAbstractVector.h"
 #include "mcOmegaMatrixVectorProduct.h"
 #include "mcKroneckerProduct.h"

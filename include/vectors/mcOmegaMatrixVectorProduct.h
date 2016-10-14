@@ -7,7 +7,7 @@
 
 #include<math.h>
 #include"mcAbstractVector.h"
-#include "mc.h"
+#include "../mc.h"
 
 #ifndef MCOMEGAMATRIXVECTORPRODUCT_H
 #define	MCOMEGAMATRIXVECTORPRODUCT_H

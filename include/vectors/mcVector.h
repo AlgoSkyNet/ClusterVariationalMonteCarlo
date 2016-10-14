@@ -6,7 +6,7 @@
  */
 #include"mcAbstractVector.h"
 //#include<gmpxx.h>
-#include "mc.h"
+#include "../mc.h"
 
 #ifndef MCVECTOR_H
 #define	MCVECTOR_H

@@ -8,9 +8,9 @@
 //#include<gmpxx.h>
 #include <iostream>
 #include <fstream>
-#include "mc.h"
-#include"mcAbstractVector.h"
-#include"mcConfiguration.h"
+#include "../mc.h"
+#include "../vectors/mcAbstractVector.h"
+#include "../mcConfiguration.h"
 
 #ifndef MCABSTRACTMEASUREMENT_H
 #define	MCABSTRACTMEASUREMENT_H

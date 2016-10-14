@@ -5,10 +5,10 @@
  * Created on August 3, 2011, 4:50 PM
  */
 #include<iostream>
-#include "mc.h"
+#include "../mc.h"
 #include "mcAbstractEigenSystemSolver.h"
-#include "mcVector.h"
-#include "mcMisc.h"
+#include "../vectors/mcVector.h"
+#include "../mcMisc.h"
 
 #ifndef MCEIGENSYSTEMSOLVERDIRECTBASIS_H
 #define	MCEIGENSYSTEMSOLVERDIRECTBASIS_H

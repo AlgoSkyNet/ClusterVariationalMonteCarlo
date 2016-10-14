@@ -6,8 +6,8 @@
  */
 #include<iostream>
 #include "mcAbstractEigenSystemSolver.h"
-#include "mcVector.h"
-#include "mc.h"
+#include "../vectors/mcVector.h"
+#include "../mc.h"
 
 #ifndef MCEIGENSYSTEMSOLVERDIRECT_H
 #define	MCEIGENSYSTEMSOLVERDIRECT_H

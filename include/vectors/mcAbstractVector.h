@@ -6,7 +6,7 @@
  */
 #include<iostream>
 //#include<gmpxx.h>
-#include "mc.h"
+#include "../mc.h"
 
 #ifndef MCABSTRACTVECTOR_H
 #define	MCABSTRACTVECTOR_H

@@ -4,13 +4,13 @@
  *
  * Created on August 5, 2011, 9:31 AM
  */
-#include "mc.h"
+#include "../mc.h"
 #include"mcAbstractMeasurement.h"
 
 #ifndef MCMEASUREMENTWEIGHT_H
 #define	MCMEASUREMENTWEIGHT_H
 
-#include "mcAbstractVector.h"
+#include "../vectors/mcAbstractVector.h"
 
 class mcMeasurementWeight : public mcAbstractMeasurement {
 public:

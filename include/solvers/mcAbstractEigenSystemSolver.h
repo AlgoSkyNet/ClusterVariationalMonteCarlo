@@ -4,10 +4,10 @@
  *
  * Created on August 3, 2011, 3:18 PM
  */
-#include "mc.h"
-#include "mcConfiguration.h"
-#include "mcAbstractVector.h"
-#include "mcAbstractClusterHamiltonian.h"
+#include "../mc.h"
+#include "../mcConfiguration.h"
+#include "../vectors/mcAbstractVector.h"
+#include "../hamiltonians/mcAbstractClusterHamiltonian.h"
 
 #ifndef MCABSTRACTEIGENSYSTEMSOLVER_H
 #define	MCABSTRACTEIGENSYSTEMSOLVER_H

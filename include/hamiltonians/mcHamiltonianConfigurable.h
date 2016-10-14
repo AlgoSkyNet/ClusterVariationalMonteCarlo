@@ -6,8 +6,8 @@
  */
 #include <xmmintrin.h>
 #include <bitset>
-#include "mcConfiguration.h"
-#include "mcAbstractClusterHamiltonian.h"
+#include "../mcConfiguration.h"
+#include "../hamiltonians/mcAbstractClusterHamiltonian.h"
 
 #ifndef MCHAMILTONIANCONFIGURABLE_H
 #define	MCHAMILTONIANCONFIGURABLE_H

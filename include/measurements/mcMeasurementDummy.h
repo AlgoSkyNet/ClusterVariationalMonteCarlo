@@ -5,7 +5,7 @@
  * Created on August 5, 2011, 2:08 PM
  */
 
-#include "mc.h"
+#include "../mc.h"
 
 #ifndef MCMEASUREMENTDUMMY_H
 #define	MCMEASUREMENTDUMMY_H

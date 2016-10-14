@@ -4,8 +4,8 @@
  *
  * Created on August 5, 2011, 9:31 AM
  */
-#include "mc.h"
-#include "mcMisc.h"
+#include "../mc.h"
+#include "../mcMisc.h"
 #include"mcAbstractMeasurement.h"
 
 
